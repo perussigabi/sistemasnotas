@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Formulario escolar</h2>
+    <form id="formulario">
+        <label for="nome">Nome do aluno:</label>
+        <input type="text" id="nome" required placeholder="Digite seu nome">
+
+        <br><br>
+
+        <label for="sobrenome">Sobrenome do aluno:</label>
+        <input type="text" id="sobrenome" required placeholder="Digite seu sobrenome">
+
+        <br><br>
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" min="1" max="50">
+
+        <br><br>
+
+        <label for="nota1">Primeira Nota:</label>
+        <input type="number" id="nota1" min="0" max="10">
+
+        <br><br>
+        
+        <label for="nota2">Segunda Nota:</label>
+        <input type="number" id="nota2" min="0" max="10">
+
+        <br><br>
+
+        <label for="nota3">Terceira Nota:</label>
+        <input type="number" id="nota3" min="0" max="10">
+
+        <br><br>
+
+        <div class="botoes">
+        <button id="submit">Enviar</button>
+
+        <button type="reset">Limpar</button>
+        </div>
+
+        <form>
+            <fieldset>
+        <h2>Dados do(a) aluno(a):</h2>
+        <label for="nome">Nome:</label>
+        <p id="resultadoNome"></p>
+
+        <label for="sobrenome">Sobrenome:</label>
+        <p id="resultadoSobrenome"></p>
+
+        <label for="Idade">Idade:</label>
+        <p id="resultadoIdade"></p>
+
+        <label for="primeira nota">Primeira nota:</label>
+        <p id="resultadoNota1"></p>
+
+        <label for="segunda nota">Segunda nota:</label>
+        <p id="resultadoNota2"></p>
+
+        <label for="terceira nota">Terceira nota:</label>
+        <p id="resultadoNota3"></p>
+
+   
+        <label for="media">Media:</label>
+        <p id="media"></p>
+
+        <br><br>
+
+        <label for="situacao">Situação:</label>
+        <p id="situacao"></p>
+        
+        </fieldset>
+        </form>
+
+    </form>
+
+</body>
+</html>
